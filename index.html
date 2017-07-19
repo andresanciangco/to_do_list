@@ -2,7 +2,7 @@
     <head>
         <title>Portland</title>
         <link rel="stylesheet" href="index.css">
-        <script src=""></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript"src="index.js"></script>
     </head>
     <body>
@@ -25,9 +25,11 @@
             clapping
             </li>
             <br>
-           <input type="text" placeholder="done">
-           <input type="number">
-           <input type="submit">
+        <div id="new-todo-block">
+           <input class="text-input" id="new-todo-descrition" type="text" placeholder="done">
+           <input class="text-input" id="new-pomodoro-estimate" type="number">
+           <input class="button" id="add-new-todo-button" type="submit">
+        </div>
         </ul> 
             </li>
         </ul>
