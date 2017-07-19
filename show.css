@@ -1,0 +1,21 @@
+h1
+{color: red;}
+ul{
+    list-style:none;
+}
+
+body {
+    
+    background-image: url("http://static.highsnobiety.com/wp-content/uploads/2016/02/19012122/Supreme-Spring-2016-Drop-Street-Style-feature.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color:black;
+    
+    margin-top: 100px;
+
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+}
